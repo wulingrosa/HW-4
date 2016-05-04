@@ -1,0 +1,88 @@
+#wrapper{
+	width: 991px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.blueBox{
+	width:20%;
+}
+
+#main{
+	width:80%;
+}
+
+.pic > .img {
+	height: 445px;
+}
+
+.title-box{
+
+	width:792.8px;
+	position: absolute;
+	top: 250px;
+	margin-bottom: 80px;
+	padding: 15px 0;
+	font-family: "Times New Roman";
+	font-size: 2.2rem;
+	line-height: 30px;
+	text-align: right;	
+	display: inline-block;
+}
+
+#spacer{
+		padding: 0;
+		margin: 15px 15px;
+}
+
+#titleA{
+	background: white;
+	color: black;
+	padding: 15px 15px 15px 15px;
+}
+#titleB{
+	background: black;
+	color: white;
+	padding: 15px 15px 15px 15px;
+}
+#nd-nav{
+	display: flex;
+	flex-wrap: wrap;
+}
+.arti-with-pic{
+	padding:0 10px;
+	width:25%;
+	box-sizing: border-box;
+}
+.icon > img{
+	width:100px;
+}
+.greenFont > ul {
+	padding: 0;
+}
+.greenFont > ul > li {
+	font-size: 2rem;
+	margin: 18px 0;
+	text-align: left;
+}
+.option{
+	width:25%;
+}
+.redBox{
+	display: flex;
+	flex-wrap: wrap;
+}
+aside{
+	color:rgb(87,87,87);
+	font-family: "Times New Roman";
+}
+aside > .aside-title {
+	font-size: 1rem;
+}
+aside > .aside-text {
+	font-size: 0.8rem;
+	padding-right: 100px;
+}
